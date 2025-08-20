@@ -5,16 +5,16 @@ import { Router } from "express";
 import multer from "multer";
 
 import { listCategories } from "./app/useCases/categories/listCategories.js";
-import { createCategory } from "./app/useCases/categories/createCategory.ts";
-import { listProducts } from "./app/useCases/products/listProducts.ts";
-import { createProduct } from "./app/useCases/products/createProduct.ts";
-import { listProductsByCategory } from "./app/useCases/categories/listProductsByCategory.ts";
-import { listOrders } from "./app/useCases/orders/listOrders.ts";
-import { createOrder } from "./app/useCases/orders/createOrder.ts";
-import { changeOrderStatus } from "./app/useCases/orders/changeOrderStatus.ts";
-import { cancelOrder } from "./app/useCases/orders/cancelOrder.ts";
-import { deleteProduct } from "./app/useCases/products/deleteProduct.ts";
-import { deletecategory } from "./app/useCases/categories/deleteCategory.ts";
+import { createCategory } from "./app/useCases/categories/createCategory.js";
+import { listProducts } from "./app/useCases/products/listProducts.js";
+import { createProduct } from "./app/useCases/products/createProduct.js";
+import { listProductsByCategory } from "./app/useCases/categories/listProductsByCategory.js";
+import { listOrders } from "./app/useCases/orders/listOrders.js";
+import { createOrder } from "./app/useCases/orders/createOrder.js";
+import { changeOrderStatus } from "./app/useCases/orders/changeOrderStatus.js";
+import { cancelOrder } from "./app/useCases/orders/cancelOrder.js";
+import { deleteProduct } from "./app/useCases/products/deleteProduct.js";
+import { deletecategory } from "./app/useCases/categories/deleteCategory.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

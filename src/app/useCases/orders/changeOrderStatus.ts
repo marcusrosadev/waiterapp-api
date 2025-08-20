@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { Order } from "../../models/Order.ts";
+import { Order } from "../../models/Order.js";
 
 export async function changeOrderStatus(req: Request, res: Response) {
   try {

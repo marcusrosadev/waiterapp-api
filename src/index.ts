@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-import { router } from './router.ts';
+import { router } from './router.js';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
